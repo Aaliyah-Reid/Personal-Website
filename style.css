@@ -1,0 +1,309 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+
+
+header{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    margin: 0 ;
+    background-color:rgb(245, 151, 232) ;
+
+
+}
+
+
+
+.navmenu{
+    display: inline;
+    align-items: center;
+    padding: 10px 10%;
+    justify-content: space-between;
+    background-color:rgb(245, 151, 232);
+    
+   
+    
+
+}
+.navmenu li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navmenu ul li:first-child a{
+    font-family: Condiment;
+    font-size: 48px;
+    margin-right: 350px;
+
+}
+
+
+.navmenu a{
+    color: white;
+    font: bolder;
+    text-transform: capitalize;
+    font-size: large;
+    align-items: center;
+    display: inline;
+    margin-right: 50px;
+    transition: all .42s ease;
+
+    
+}
+
+.navmenu a:hover{
+    color: rgb(104, 167, 194);
+    transform: scale(1.2);
+
+}
+
+#home{
+    font-size: 36px;
+    margin: 30 20px;
+    align-items: center;
+    color:black;
+    margin-top: 280px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 10%;
+
+}
+
+
+
+
+
+
+#about{
+    font-size: 24px;
+    color: black;
+    margin-top: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 10%;
+    
+}
+
+#about h2{
+    text-align: center;
+    font-size: 36px;
+    color:black;
+
+}
+
+.about-content p{
+    margin-top: 80px;
+    max-width: 1000px;
+    flex:1;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-content img{
+    margin-left: 50px;
+    margin-right :150px;
+    margin-top: 40px;
+}
+
+
+
+
+#education{
+    font-size: 24px;
+    color: black;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 10%;
+
+}
+
+
+#education h2{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+
+}
+
+
+#education h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+.schools{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.schools img{
+    margin-right: 10px;
+}
+
+#education p{
+    text-justify: inter-word;
+}
+#education p span{
+    font-size: medium;
+    display:inline;
+    text-align: center;
+    margin-right: 50px; 
+    margin-left: 20px;
+   
+}
+
+#education ul{
+    font-size: medium;
+}
+#interests{
+
+    color: black;
+    font-size: 24px;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 10%;
+
+}
+
+#interests h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+
+#interests p{
+    margin-top: 40px;
+
+}
+
+
+#interests h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(215, 6, 187);
+}
+
+#interests table{
+     border: rgb(215, 6, 187);
+     background-color: rgb(131, 240, 220);
+     font-size: 18px;
+     margin: 0 auto;
+     width: 80%;
+     height: 300px;
+
+}
+
+th, td{
+
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    color: black;
+}
+
+
+.contactform-content{
+    background-color: rgb(245, 151, 232);
+    width: 100%;
+    margin: 0;
+}
+
+
+#contact{
+    color: black;
+    margin-top: 100px;
+    
+    /* padding: 20px 10%; */
+
+}
+
+#contact h2{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+
+
+
+form{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    background-color: white;
+    border: 2px rgb(215, 6, 187);
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+
+input[type="text area"]{
+        width:100%;
+        height: 70px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        border: 2px rgb(215, 6, 187);
+}
+
+input[type="submit"]{
+   
+    margin-top: 0px;
+    padding: 10px 70px;
+    color: white;
+    background-color:  rgb(211, 6, 194);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-colour 0.4s ease-in-out ;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(158, 61, 134);
+    cursor: pointer;
+}
+
+
+select{
+
+    background-color: rgb(220, 248, 243);
+    margin-bottom: 20px;
+    position: bottom;
+}
+    
+select option{
+    position: absolute;
+}
